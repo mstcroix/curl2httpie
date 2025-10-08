@@ -1,0 +1,26 @@
+{
+  "name": "curl2httpie",
+  "version": "1.0.0",
+  "description": "CLI tool to convert curl commands to HTTPie syntax",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "curl2httpie": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curl",
+    "httpie",
+    "cli",
+    "converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "commander": "^11.0.0",
+    "yargs-parser": "^21.1.1"
+  }
+}
